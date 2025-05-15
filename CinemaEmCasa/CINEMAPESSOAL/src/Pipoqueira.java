@@ -1,7 +1,7 @@
 public class Pipoqueira {
     int qtd;
 
-    public void Pipoqueira(int qtd) {
+    public Pipoqueira(int qtd) {
         this.qtd = qtd;
     }
 

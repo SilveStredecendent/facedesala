@@ -1,11 +1,12 @@
 public class FacedeSala {
     boolean verdadeiro;
+    
     BlueRay b;
     Projetor o;
     Cadeiras c;
     Pipoqueira p;
     HomeTheater h;
-    Iluminacao i;
+    Iluminacao l;
     ArCondicionado a;
 
     public FacedeSala(int funcao) {
@@ -45,7 +46,7 @@ public class FacedeSala {
             p.baldes();
             h.aumentarVol();
             h.diminuirVol();
-            i.trocarCor();
+            l.trocarCor();
             a.aumentarTemp();
             a.diminuirTemp();
 
@@ -54,115 +55,129 @@ public class FacedeSala {
     }
 
     public void aventura() {
-        int ;
-        int ameno = 22;
+        int cor = 9; 
+        int condi = 22;
         int angulo = 110;
-        int ;
-        int ;
-        int ;
-        int ;
-        int ;
+        int baldes = 3;
+        int volumeAlto = 80;
+        int ligado = 1;
+        int play = 1;
 
-        i = new Iluminacao();
-        a = new ArCondicionado(ameno);
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        p = new Pipoqueira();
-        h = new HomeTheater();
-        o = new Projetor();
-        b = new BlueRay();
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeAlto);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
     }
 
     public void romantico() {
-        int ;
-        int quente = 25;
+        int cor = 8; 
+        int condi = 25;
         int angulo = 110;
-        int ;
-        int ;
-        int ;
+        int baldes = 3;
+        int volumeBaixo = 40;
+        int ligado = 1;
+        int play = 1;
 
-        i = new Iluminacao();
-        a = new ArCondicionado(quente);
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        o = new Projetor();
-        b = new BlueRay();
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeBaixo);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
     }
 
     public void comedia() {
-        int ;
-        int quente = 25;
+        int cor = 7; 
+        int condi = 23;
         int angulo = 110;
-        int ;
-        int ;
-        int ;
+        int baldes = 3;
+        int volumeBaixo = 50;
+        int ligado = 1;
+        int play = 1;
 
-
-        i = new Iluminacao();
-        a = new ArCondicionado(quente);
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        p = new Pipoqueira();
-        o = new Projetor();
-        b = new BlueRay();
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeBaixo);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
     }
 
     public void acao() {
-        int ;
-        int quente = 25;
-        int angulo = 110;
-        int ;
-        int ;
-        int ;
-        int ;
+        int cor = 3; 
+        int condi = 18;
+        int angulo = 120;
+        int baldes = 3;
+        int volumeAlto = 90;
+        int ligado = 1;
+        int play = 1;
 
-        i = new Iluminacao();
-        a = new ArCondicionado(quente);
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        p = new Pipoqueira();
-        h = new HomeTheater();
-        o = new Projetor();
-        b = new BlueRay();
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeAlto);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
     }
 
     public void novela() {
-        int ;
-        int angulo = 110;
-        int ;
-        int ;
+        int cor = 4; 
+        int condi = 22;
+        int angulo = 100;
+        int baldes = 3;
+        int volumeBaixo = 40;
+        int ligado = 1;
+        int play = 1;
 
-        i = new Iluminacao();
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        o = new Projetor();
-        b = new BlueRay();
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeBaixo);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
     }
 
     public void esportes() {
-        int ;
+        int cor = 6; 
+        int condi = 20;
         int angulo = 110;
-        int ;
-        int ;
-        int ;
+        int baldes = 3;
+        int volumeAlto = 75;
+        int ligado = 1;
+        int play = 1;
 
-        i = new Iluminacao();
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        h = new HomeTheater();
-        o = new Projetor();
-        b = new BlueRay();
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeAlto);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
     }
 
     public void show() {
-        int ;
-        int angulo = 110;
-        int frio = 16;
-        int quente = 16;
-        int alto = 70;
-        int ;
-        int ;
+        int cor = 10; 
+        int condi = 16;
+        int angulo = 120;
+        int baldes = 3;
+        int volumeAlto = 100;
+        int ligado = 1;
+        int play = 1;
 
-        i = new Iluminacao();
+        l = new Luz(cor);
+        a = new ArCondicionado(condi);
         c = new Cadeiras(angulo);
-        a = new ArCondicionado(frio);
-        h = new HomeTheater(alto);
-        o = new Projetor();
-        b = new BlueRay();
-    }
-
+        p = new Pipoqueira(baldes);
+        h = new HomeTheater(volumeAlto);
+        o = new Projetor(ligado);
+        b = new BlueRay(play);
+    } 
+    
 }

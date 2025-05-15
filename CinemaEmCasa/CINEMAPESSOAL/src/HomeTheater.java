@@ -1,8 +1,7 @@
 public class HomeTheater {
-    int volAumentado;
-    int volDiminuido;
+    int volAumentado, volDiminuido;
 
-    public void HomeTheater(int volAumentado, int volDiminuido) {
+    public void Som(int volAumentado, int volDiminuido) {
         this.volAumentado = volAumentado;
         this.volDiminuido = volDiminuido;
 

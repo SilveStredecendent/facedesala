@@ -1,7 +1,7 @@
 public class BlueRay {
     int play;
 
-    public BlueRay( int play){
+    public BlueRay(int play) {
         this.play = play;
     }
 
