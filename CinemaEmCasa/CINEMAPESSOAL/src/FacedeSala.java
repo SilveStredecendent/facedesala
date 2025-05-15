@@ -1,5 +1,5 @@
 public class FacedeSala {
-    boolean verdadeiro;
+    boolean verdadeiro = true;
 
     BlueRay b;
     Projetor o;
