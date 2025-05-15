@@ -1,7 +1,7 @@
 public class Iluminacao {
     int cor;
 
-    public void Iluminacao(int cor) {
+    public Iluminacao(int cor) {
         this.cor = cor;
     }
 
@@ -14,3 +14,4 @@ public class Iluminacao {
         }
     }
 }
+

@@ -1,6 +1,6 @@
 public class FacedeSala {
     boolean verdadeiro;
-    
+
     BlueRay b;
     Projetor o;
     Cadeiras c;
@@ -63,11 +63,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeAlto);
+        h = new HomeTheater(volumeAlto, volumeAlto);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     }
@@ -81,11 +81,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeBaixo);
+        h = new HomeTheater(volumeBaixo, volumeBaixo);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     }
@@ -99,11 +99,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeBaixo);
+        h = new HomeTheater(volumeBaixo, volumeBaixo);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     }
@@ -117,11 +117,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeAlto);
+        h = new HomeTheater(volumeAlto, volumeAlto);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     }
@@ -135,11 +135,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeBaixo);
+        h = new HomeTheater(volumeBaixo, volumeBaixo);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     }
@@ -153,11 +153,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeAlto);
+        h = new HomeTheater(volumeAlto, volumeAlto);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     }
@@ -171,11 +171,11 @@ public class FacedeSala {
         int ligado = 1;
         int play = 1;
 
-        l = new Luz(cor);
-        a = new ArCondicionado(condi);
+        l = new Iluminacao(cor);
+        a = new ArCondicionado(condi, condi);
         c = new Cadeiras(angulo);
         p = new Pipoqueira(baldes);
-        h = new HomeTheater(volumeAlto);
+        h = new HomeTheater(volumeAlto, volumeAlto);
         o = new Projetor(ligado);
         b = new BlueRay(play);
     } 
